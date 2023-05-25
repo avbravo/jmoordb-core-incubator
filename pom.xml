@@ -44,11 +44,14 @@
 	    <artifactId>jmoordb-core-processor-omega</artifactId>
 	    <version>${version.jmoordb-core-processor-omega}</version>
 	</dependency>-->
-        <dependency>
-            <groupId>com.avbravo</groupId>
+<!--        <dependency>
+            <groupId>com.avbravo.jmoordb.core.processor</groupId>
             <artifactId>jmoordb-core-processor-omega</artifactId>
             <version>0.1</version>
-        </dependency>
+        </dependency>-->
+        
+        
+        
     </dependencies>
     <build>
         <plugins>
