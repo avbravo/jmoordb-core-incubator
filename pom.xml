@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <version.jmoordb-core-processor-omega>0.1</version.jmoordb-core-processor-omega>
+        <jmoordb-core-processor-omega.version>0.1</jmoordb-core-processor-omega.version>
      
     </properties>
     
@@ -50,7 +50,11 @@
             <version>0.1</version>
         </dependency>-->
         
-        
+          <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jmoordb-core-processor-omega</artifactId>
+            <version>${jmoordb-core-processor-omega.version}</version>
+        </dependency>
         
     </dependencies>
     <build>
